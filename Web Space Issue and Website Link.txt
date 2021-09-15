@@ -1,0 +1,2 @@
+I couldn't get the Web Space up before the deadline and I've already reached to IT about it twice.
+I instead hosted my website on GitHub Pages: https://rakkii-san.github.io/cs2990-personal-website/index.html
