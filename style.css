@@ -1,5 +1,7 @@
 body {/* Requirement-2.A */ 
-    background-color: rgb(248, 225, 122); /* Requirement-2.4 */ 
+    background-image: url("/cs2990-personal-website/cogs.png"); /* Requirement-2.4 */ 
+    background-repeat: repeat;
+    background-color: rgb(248, 225, 122); 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Requirement-2.1 */ 
 }
 h1 {
