@@ -1,9 +1,8 @@
 body {/* Requirement-2.A */ 
-    background-image: url("/cs2990-personal-website/cogs.png"); /* Requirement-2.4 */ 
+    background-image: url("https://cdn.discordapp.com/attachments/697262255548530850/891955573686415380/cogs.png"); /* Requirement-2.4 */ 
     background-repeat: repeat;
     background-color: rgb(248, 225, 122); 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Requirement-2.1 */ 
-    text-shadow: 3px 3px #1f1e33;
 }
 h1 {
     font-size: 36px;
@@ -16,7 +15,7 @@ h2 {/* Requirement-2.B */
 }
 nav a {
     font-size: 48px;
-    border: 6px solid #e4ae1d;
+    border: 6px solid #e4ae1d; /* Requirement-2.5 */ 
     border-radius: 3px;
     background-color: rgb(248, 225, 122);
 }
@@ -26,11 +25,14 @@ nav a {
 }
 figcaption {
     font-size: 24px;
-    text-align: left; /* Requirement-2.2 */ 
+    text-align: left; 
 }
 footer {
     font-size: 14px;
-    border: 4px dotted #cca326; /* Requirement-2.5 */ 
+    border: 4px dotted #cca326; 
+}
+footer.clear {
+    clear: left;
 }
 footer div {
     float: left;
@@ -39,6 +41,7 @@ li {
     color: #173b03;
     list-style-type: square; /* Requirement-2.8 */ 
     margin-left: 10px; /* Requirement-2.6 */ 
+    text-shadow: 0px 0px #000000;
 }
 details { /* Requirement-2.G */ 
     border: 4px dotted #cca326;
