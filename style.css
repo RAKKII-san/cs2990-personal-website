@@ -1,4 +1,18 @@
+body {
+    background-color: lightgoldenrodyellow; /* Requirement-2.4 */ 
+}
 h1 {/* Requirement-2.A */ 
-    font-size:30px; /* Requirement-2.1 */ 
-    color: blue;
+    font-size: 36px; /* Requirement-2.1 */ 
+    color: #354953; /* Requirement-2.3 */ 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+figcaption {
+    font-size: 24px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center; /* Requirement-2.2 */ 
+}
+footer {
+    font-size: 18px;
+    border: 4px dotted #cca326; /* Requirement-2.5 */ 
 }
