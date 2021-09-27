@@ -1,5 +1,5 @@
 body {/* Requirement-2.A */ 
-    background-color: lightgoldenrodyellow; /* Requirement-2.4 */ 
+    background-color: rgb(248, 225, 122); /* Requirement-2.4 */ 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Requirement-2.1 */ 
 }
 h1 {
@@ -9,10 +9,10 @@ h1 {
 h2 {/* Requirement-2.B */ 
     color: #205a77;
 }
-nav {
+nav a {
     font-size: 48px;
-    border: 10px solid #e4ae1d;
-    border-radius: 5px;
+    border: 6px solid #e4ae1d;
+    border-radius: 3px;
 }
 .drawing { /* Requirement-2.C */ 
     width: 450px; /* Requirement-2.7 */ 
@@ -22,10 +22,20 @@ figcaption {
     text-align: left; /* Requirement-2.2 */ 
 }
 footer {
-    font-size: 18px;
+    font-size: 14px;
     border: 4px dotted #cca326; /* Requirement-2.5 */ 
-    margin-left: 10px; /* Requirement-2.6 */ 
 }
 li {
     color: #173b03;
+    list-style-type: square; /* Requirement-2.8 */ 
+    margin-left: 10px; /* Requirement-2.6 */ 
+}
+details { /* Requirement-2.G */ 
+    border: 4px dotted #cca326;
+}
+details p { /* Requirement-2.F */ 
+    font-size: 16px;
+}
+summary { /* Requirement-2.H */ 
+    font-size: 24px;
 }
