@@ -3,18 +3,22 @@ body {/* Requirement-2.A */
     background-repeat: repeat;
     background-color: rgb(248, 225, 122); 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Requirement-2.1 */ 
+    text-shadow: 3px 3px #1f1e33;
 }
 h1 {
     font-size: 36px;
-    color: #6c4b81; /* Requirement-2.3 */ 
+    color: #9760b9; /* Requirement-2.3 */ 
+    text-shadow: 3px 3px #1f1e33;
 }
 h2 {/* Requirement-2.B */ 
-    color: #205a77;
+    color: #e4ae1d;
+    text-shadow: 3px 3px #33211e;
 }
 nav a {
     font-size: 48px;
     border: 6px solid #e4ae1d;
     border-radius: 3px;
+    background-color: rgb(248, 225, 122);
 }
 .drawing { /* Requirement-2.C */ 
     width: 450px; /* Requirement-2.7 */ 
