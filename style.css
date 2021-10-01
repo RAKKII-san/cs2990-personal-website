@@ -1,56 +1,139 @@
-body {/* Requirement-2.A */ 
+body { /* Requirement-2.A */ 
     background-image: url("https://cdn.discordapp.com/attachments/697262255548530850/891955573686415380/cogs.png"); /* Requirement-2.4 */ 
     background-repeat: repeat;
     background-color: rgb(248, 225, 122); 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Requirement-2.1 */ 
-    text-shadow: 3px 3px #1f1e33; /* Requirement-2.2 */ 
 }
 h1 {
-    font-size: 36px;
-    color: #9760b9; /* Requirement-2.3 */ 
-    text-shadow: 3px 3px #1f1e33;
-}
-h2 {/* Requirement-2.B */ 
-    color: #e4ae1d;
-    text-shadow: 3px 3px #33211e;
-}
-nav a {
     font-size: 48px;
+    color: #cd88f8; /* Requirement-2.3 */ 
+    text-shadow: 3px 3px #1f1e33; /* Requirement-2.2 */ 
+}
+h2 { /* Requirement-2.B */ 
+    color: #e4ae1d;
+    text-shadow: 2px 2px #33211e;
+}
+h3 {
+    color: #770db9;
+    text-shadow: 1px 1px #e0b0e2;
+    background-color: #1f1e333f;
+    display: table;
+}
+nav a { /* Requirement-2.F */ 
+    font-size: 36px;
     border: 6px solid #e4ae1d; /* Requirement-2.5 */ 
     border-radius: 3px;
+    background-color: rgb(180, 180, 180);
+}
+nav a:hover { /* Requirement-2.E */
     background-color: rgb(248, 225, 122);
 }
 .drawing { /* Requirement-2.C */ 
-    width: 480px; /* Requirement-2.7 */ 
-    float: left; /* Requirement-2.9 */ 
+    width: 640px; /* Requirement-2.7 */
 }
 figcaption {
     font-size: 24px;
     text-align: left; 
+    clear: left;
+    color: #e4ae1d;
+    text-shadow: 2px 2px #32331e;
+    background-color: #cca2263f;
+    width: 700px;
+}
+figcaption em {
+    font-size: 14px;
+}
+figcaption span {
+    color: #cd88f8;
 }
 footer {
+    clear: left; /* Requirement-2.13 */ 
     font-size: 14px;
-    border: 4px dotted #cca326; 
 }
 footer div {
+    border: 4px dotted #cca326; 
+    padding: 4px;
+    padding-right: 20px;
+    margin-top: 10px;
+    color: #f7faf5;
+    background-color: rgb(19, 85, 46);
     float: left;
+    height: 300px;
+    overflow: scroll; /* Requirement-2.14 */ 
 }
 li {
-    color: #173b03;
     list-style-type: square; /* Requirement-2.8 */ 
     margin-left: 10px; /* Requirement-2.6 */ 
 }
-details { /* Requirement-2.G */ 
-    border: 4px dotted #cca326;
-    background-color: rgb(248, 225, 122);
+footer p {
+    clear: left; /* Requirement-2.11 */ 
 }
-details p { /* Requirement-2.F */ 
+.hidden {
+    font-size: 32px;
+    visibility: hidden; /* Requirement-2.16 */
+}
+details { /* Requirement-2.G */ 
+    clear: left;
+    border: 4px solid #cca326;
+    background-color: rgb(180, 180, 180);
+    display: inline-block; /* Requirement-2.12 */ 
+    width: 400px;
+}
+details p { 
     font-size: 16px;
 }
 summary { /* Requirement-2.H */ 
     font-size: 24px;
 }
-#cannonballgif {
+.cannonball { 
+    position: absolute; /* Requirement-2.9 */ 
+    left: 480px; /* Requirement-2.15 */ 
+    top: 200px;
+    z-index: 1; /* Requirement-2.17 */ 
+    width: 200px;
+    height: 320px;
+}
+.cannonball .dance {
+    display: block;
+}
+.cannonball .hit {
+    display: none;
     position: relative;
-    left: 10%;
+    top: 15px;
+    left: -10px;
+}
+.cannonball:hover .dance {
+    display: none;
+}
+.cannonball:hover .hit {
+    display: block;
+}
+#cs2990logo { /* Requirement-2.D */ 
+    z-index: 0;
+    position: relative; /* Requirement-2.10 */ 
+    left: 5%;
+}
+table, tr, th {
+    border: 3px solid black;
+    background-color: #B4B4B4;
+}
+table .drawing {
+    padding: 0px;
+}
+table .other {
+    padding: 32px;
+}
+table .info {
+    font-size: 32px;
+}
+table .desc {
+    font-size: 28px;
+    padding: 32px;
+}
+.tabledesc {
+    font-size: 36px;
+    color: #770db9;
+    text-shadow: 1px 1px #e0b0e2;
+    background-color: #1f1e333f;
+    display: table;
 }
